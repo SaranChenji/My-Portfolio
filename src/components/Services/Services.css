@@ -1,0 +1,26 @@
+#services {
+  overflow: hidden;
+}
+
+#services .services__group {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); //  THIS STYLE IS TO USE IN FEATUR  */
+  grid-template-columns: 50%;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  #services .services__group {
+    /* grid-template-columns: repeat(2, 1fr); THIS STYLE IS TO USE IN FEATUR     */
+    grid-template-columns: 50%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #services .services__group {
+    grid-template-columns: 100%;
+  }
+}
