@@ -45,5 +45,9 @@
 
 /* RESPONSIVE */
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
+  .skill__card .skill__content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
 }

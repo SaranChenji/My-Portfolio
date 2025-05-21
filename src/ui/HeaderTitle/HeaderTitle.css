@@ -73,7 +73,7 @@
     font-size: 8.6vw;
     margin: 10rem auto;
     line-height: 1.1;
-    text-align: center;
+
     justify-content: center;
   }
 }
@@ -81,6 +81,6 @@
 @media (max-width: 768px) {
   .header__title {
     font-size: 16vw;
-    margin: 0;
+    margin: 0 0 0 20px;
   }
 }

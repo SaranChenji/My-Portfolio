@@ -7,17 +7,19 @@ import Facts from "../../ui/Facts";
 import SocialHandles from "../../ui/SocialHandles";
 import BreathCircle from "../../ui/BreathCircle";
 const code = `const developer={
-   firstName:"Saran",
-   lastName:"Chenji",
-   role:"Frontend Developer",
-   skills:["HTML5","CSS3",
-      "JavaScript","React JS","Git"],
-   hobby:repeat=()=>{
-     //learn();
-     //code();
-     //build();
-     //repeat();
-     }
+    firstName:"Saran",
+    lastName:"Chenji",
+    role:"Frontend Developer",
+    skills:["HTML5","CSS3",
+            "JavaScript",
+            "React JS",
+            "Git"],
+     hobby:repeat=()=>{
+       //learn();
+       //code();
+       //build();
+       //repeat();
+       }
     };`;
 const Header = () => {
   return (

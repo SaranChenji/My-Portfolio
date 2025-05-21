@@ -110,6 +110,7 @@ img {
 }
 .flex {
   display: flex;
+  justify-content: center;
 }
 .flex__center {
   display: flex;
